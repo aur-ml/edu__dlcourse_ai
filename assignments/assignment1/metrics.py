@@ -14,6 +14,25 @@ def binary_classification_metrics(prediction, ground_truth):
     accuracy = 0
     f1 = 0
 
+    tp = 0
+    fp = 0
+    fn = 0
+    tn = 0
+    
+    for i in range(prediction.shape[0]):
+        if (prediction[i] and ground_truth[i]):
+            tp += 1
+        elif (prediction[i] and not ground_truth[i]):
+            fp += 1
+        elif (not prediction[i] and ground_truth[i]):
+            fn += 1
+        elif (not prediction[i] and not ground_truth[i]):
+            tn += 1
+
+    precision = (tp / float(tp + fp))
+    recall = (tp / float(tp + fn))
+    f1 = (2* ((precision * recall) / (precision + recall)))
+    accuracy = (tp + tn) / float(tp + fp + fn + tn)
     # TODO: implement metrics!
     # Some helpful links:
     # https://en.wikipedia.org/wiki/Precision_and_recall
