@@ -11,6 +11,5 @@ def multiclass_accuracy(prediction, ground_truth):
     """
 
     # TODO: Implement computing accuracy
-    raise Exception("Not implemented!")
 
-    return 0
+    return sum(y_pred == y for (y_pred, y) in zip(prediction, ground_truth)) / len(prediction)
