@@ -2,25 +2,25 @@ This repo relates to Feb-May 2019 session of the Deep Learning course (https://d
 
 # Course roadmap
 
-##ЛЕКЦИИ И ЗАДАНИЯ
-###Лекция 1: 
+## ЛЕКЦИИ И ЗАДАНИЯ
+### Лекция 1: 
 Введение	20 февраля, 
 8:40 Мск	О чем курс, что такое machine learning и deep learning, основные домены - computer vision, NLP, speech recognition, reinforcement learning.
 
-###Семинар 1: 
+### Семинар 1: 
 Python, numpy, notebooks		Краткий обзор инструментария, необходиомого для курса - Python, Jupyter, numpy. Google Colab как среда выполнения Jupyter Notebooks в облаке.
 
-###Лекция 2: 
+### Лекция 2: 
 Элементы машинного обучения	27 февраля, 
 8:40 Мск	Обзор задачи supervised learning. K-nearest neighbor как пример простого алгоритма обучения. Тренировочная и тестовые выборки. Гиперпараметры, их подбор с помощью validation set и cross-validation. Общая последовательность действий при тренировке и валидации моделей (Machine Learning Flow).
 
-###Семинар 2: 
+### Семинар 2: 
 Установка окружения для заданий		Установка окружения, необходимого для решения заданий. Некоторые детали KNN.
 
-###Задание 1, Часть 1: 
+### Задание 1, Часть 1: 
 K-nearest neighbor		Знакомство с Python и numpy, реализация K-nearest neighbor classifier руками. Выбор гиперпараметра с помощью cross-validation.
 
-###Лекция 3: 
+### Лекция 3: 
 Нейронные сети	
 6 марта, 8:40 Мск	
 Линейный классификатор - нейронная сеть с одним слоем. Softmax, функция потерь cross-entropy. Тренировка с помощью стохастического градиентного спуска, регуляризация весов. Многослойные нейронные сети, fully-connected layers. Алгоритм backpropagation.
@@ -105,7 +105,7 @@ Reinforcement Learning
 15 мая, 8:40 Мск	
 Введение в обучение с подкреплением (reinforcement learning), использование методов deep learning. Базовые алгоритмы - Policy Gradients и Q-Learning
 
-###Лекция 14: 
+### Лекция 14: 
 Еще о Reinforcement Learning	
 22 мая, 8:40 Мск	
 Model-based RL на примере AlphaZero. Критика и некоторые возможные пути развития области.	
